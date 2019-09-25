@@ -208,6 +208,7 @@ func main() {
 				fmt.Println("--------------------------------------------------------------")
 				if GetAccountId(account) != "" {
 					fmt.Println("-- Account ID of:", account, "is:", GetAccountId(account))
+                                        fmt.Println("--------------------------------------------------------------")
 					return nil
 				}
 
