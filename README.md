@@ -25,3 +25,8 @@ GLOBAL OPTIONS:
 COPYRIGHT:
    MIT PsyanticY (2019)
 ```
+# build and install:
+git clone https://github.com/PsyanticY/gogo
+cd gogo
+nix-build
+nix-env -i `path/to/bin/in/nix/store `
