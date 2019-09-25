@@ -1,4 +1,5 @@
 # Simple go cli with usefull stuff
+```bash
 NAME:
    CLI to run some useful commands - Let you query IPs, Switch AWS Role and AWS account ID
 
@@ -23,4 +24,4 @@ GLOBAL OPTIONS:
 
 COPYRIGHT:
    MIT PsyanticY (2019)
-
+```
