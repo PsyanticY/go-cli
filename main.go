@@ -82,11 +82,6 @@ func main() {
 			Value:    "",
 			Usage:    "AWS User mfa.",
 		},
-		cli.StringFlag{
-			Name:  "c, credentials",
-			Value: "~/.aws/credentials",
-			Usage: "AWS User Credentials.",
-		},
 	}
 	accountFlags := []cli.Flag{
 		cli.StringFlag{
